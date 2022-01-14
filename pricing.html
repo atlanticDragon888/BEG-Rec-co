@@ -7,11 +7,28 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://bootswatch.com/5/lux/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <title>BEG Recoding Company Official Website</title>
+    <title>B E G Recoding Company Official Website</title>
+
+    <style>
+      .container {
+        max-width: 1500px;
+      }
+
+      .pricing-header {
+        max-width: 700px;
+      }
+    </style>
   </head>
   <body>
-      <main>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check" viewBox="0 0 16 16">
+        <title>Check</title>
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+      </symbol>
+    </svg>
+      <main class="flex-shrink-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">BEG</a>
@@ -35,15 +52,212 @@
                     <a class="nav-link" href="equipment.html" >equipment</a>
                   </li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
+          <div class="container">
+            <div class="pricing-header mt-5 p-3 pb-md-4 mx-auto text-center">
+              <h1 class="display-4 fw-normal">Pricing</h1>
+              <p class="fs-4 text-muted">Find below our pricing and plans.</p>
+            </div>
+            <main>
+              <!-- Tabs -->
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-bundle-tab" data-bs-toggle="tab" href="#nav-bundle" role="tab" aria-controls="nav-bundle" aria-selected="true">Bundles</a>
+                  <a class="nav-item nav-link" id="nav-mixing-tab" data-bs-toggle="tab" href="#nav-mixing" role="tab" aria-controls="nav-mixing" aria-selected="false">Mixing</a>
+                  <a class="nav-item nav-link" id="nav-recording-tab" data-bs-toggle="tab" href="#nav-recording" role="tab" aria-controls="nav-recording" aria-selected="false">Recording</a>
+                </div>
+              </nav>
+              <div class="tab-content pt-4" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-bundle" role="tabpanel" aria-labelledby="nav-bundles-tab">
+                  <!-- Bundles -->
+                  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">Single Recording + Mix</h4>
+                        </div>
+                        <div class="card-body">
+                          <h1 class="card-title pricing-card-title">S$175<small class="text-muted fw-light">/Studio Hour</small></h1>
+                          <h2 class="card-title pricing-card-title">+ S$150<small class="text-muted fw-light">/Track</small></h2>
+                          <h3 class="card-title pricing-card-title">1-2 Tracks</h3>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>3 mix revisions per track</li>
+                            <li>One minus mix</li>
+                            <li>Email support</li>
+                            <li>Online Creative meeting</li>
+                            <li>S$20 per channel past 10 channels</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-outline-primary">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">EP Recording + Mix</h4>
+                        </div>
+                        <div class="card-body">
+                          <h1 class="card-title pricing-card-title">S$150<small class="text-muted fw-light">/Studio Hour</small></h1>
+                          <h2 class="card-title pricing-card-title">+ S$100<small class="text-muted fw-light">/Track</small></h2>
+                          <h3 class="card-title pricing-card-title">3-6 Tracks</h3>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 mix revisions per track</li>
+                            <li>One minus + Stems</li>
+                            <li>Priority email support</li>
+                            <li>In person creative meeting</li>
+                            <li>S$16 per channel past 20 channels</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 bg-primary border-primary">
+                          <h4 class="my-0 fw-normal text-white">Album Recording + Mix</h4>
+                        </div>
+                        <div class="card-body">
+                          <h1 class="card-title pricing-card-title">$125<small class="text-muted fw-light">/Studio Hour</small></h1>
+                          <h2 class="card-title pricing-card-title">+ S$50<small class="text-muted fw-light">/Track</small></h2>
+                          <h3 class="card-title pricing-card-title">7+ Tracks</h3>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>25 mix revisions per track</li>
+                            <li>One minus + Stems</li>
+                            <li>Phone and email support</li>
+                            <li>3 In person creative meetings</li>
+                            <li>S$12 per channel past 30 channels</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-mixing" role="tabpanel" aria-labelledby="nav-mixing-tab">
+                  <!-- Mixing -->
+                  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">Single Mix</h4>
+                        </div>
+                        <div class="card-body">
+                          <h1 class="card-title pricing-card-title">S$250<small class="text-muted fw-light">/Track</small></h1>
+                          <h3 class="card-title pricing-card-title">1-2 Tracks</h3>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>3 mix revisions per track</li>
+                            <li>One minus mix</li>
+                            <li>Email support</li>
+                            <li>Online Creative meeting</li>
+                            <li>S$10 per channel past 30 channels</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-outline-primary">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">EP Mix</h4>
+                        </div>
+                        <div class="card-body">
+                          <h1 class="card-title pricing-card-title">S$200<small class="text-muted fw-light">/Track</small></h1>
+                          <h3 class="card-title pricing-card-title">3-6 Tracks</h3>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 mix revisions per track</li>
+                            <li>One minus + Stems</li>
+                            <li>Priority email support</li>
+                            <li>In person creative meeting</li>
+                            <li>S$8 per channel past 40 channels</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 bg-primary border-primary">
+                          <h4 class="my-0 fw-normal text-white">Album Mix</h4>
+                        </div>
+                        <div class="card-body">
+                          <h1 class="card-title pricing-card-title">$150<small class="text-muted fw-light">/Track</small></h1>
+                          <h3 class="card-title pricing-card-title">7+ Tracks</h3>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>25 mix revisions per track</li>
+                            <li>One minus + Stems</li>
+                            <li>Phone and email support</li>
+                            <li>3 In person creative meetings</li>
+                            <li>S$6 per channel past 50 channels</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-recording" role="tabpanel" aria-labelledby="nav-recording-tab">
+                  <!-- Recording -->
+                  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">Single Recording</h4>
+                        </div>
+                        <div class="card-body">
+                          <h1 class="card-title pricing-card-title">$250<small class="text-muted fw-light">/Studio Hour</small></h1>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>Online Creative meeting</li>
+                            <li>S$20 per channel past 10 channels</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-outline-primary">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">EP Recording</h4>
+                        </div>
+                        <div class="card-body">
+                          <h1 class="card-title pricing-card-title">$215<small class="text-muted fw-light">/Studio Hour</small></h1>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>In person creative meeting</li>
+                            <li>S$16 per channel past 20 channels</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 bg-primary border-primary">
+                          <h4 class="my-0 fw-normal text-white">Album Recording</h4>
+                        </div>
+                        <div class="card-body">
+                          <h1 class="card-title pricing-card-title ">$200<small class="text-muted fw-light">/Studio Hour</small></h1>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>3 In person creative meetings</li>
+                            <li>S$12 per channel past 30 channels</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+          </main>
           
       </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <footer class="footer fixed-bottom mt-auto py-3 bg-light">
+          <div class="container">
+            <span class="text-muted">&copy; BEG Recording Studio Co 2022, All rights Reserved | All trademarks and/or brand names are the property of their respective owners</span>
+          </div>
+        </footer>
   </body>
 </html>
